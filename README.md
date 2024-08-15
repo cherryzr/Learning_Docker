@@ -1,16 +1,19 @@
 ## Instructions to run
+
 1. Clone repository
 2. Run npm install to install node modules
 3. Add your API key in the .env file (replace YOURAPIKEY with your real API Key). Instructions to obtain API key found [here](https://www.slickremix.com/docs/get-api-key-for-youtube/)
 4. Run npm start to run app
-5. Insert YouTube Video ID into search box and hit enter to retrieve results. You can get the video ID from any YouTube video URL. 
+5. Insert YouTube Video ID into search box and hit enter to retrieve results. You can get the video ID from any YouTube video URL.
 
 ## Instructions to Build and Run Docker Image
+
 1. Follow instructions 1 & 3 above.
 2. To build image, cd into directory and run `docker build . -t youtubereactapp:latest`
 3. To run container enter `docker run --rm -it -p 3000:3000/tcp youtubereactapp:latest`
 
 ## Generic Create React App Stuff
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -52,30 +55,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### For all the official and non official images:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [hub.docker.com](https://hub.docker.com/)
 
-### Code Splitting
+### To understand the anatomy of a docker file:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Anatomy of a Dockerfile](https://mehlj.github.io/Dockerfile/)
+- [Writing a DockerFile](https://docs.docker.com/guides/docker-concepts/building-images/writing-a-dockerfile/)
