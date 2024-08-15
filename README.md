@@ -1,3 +1,9 @@
+# YOUTUBE STATS WEB APP
+
+### Displays all the tags associated with any youtube video.
+
+![alt text](test_image1.jpg)
+
 ## Instructions to run
 
 1. Clone repository
